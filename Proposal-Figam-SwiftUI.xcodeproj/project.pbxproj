@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A18ACB2A2E0509003945C2 /* Proposal_Figam_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18ACA2A2E0509003945C2 /* Proposal_Figam_SwiftUIApp.swift */; };
+		04A18ACD2A2E0509003945C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18ACC2A2E0509003945C2 /* ContentView.swift */; };
+		04A18ACF2A2E050A003945C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A18ACE2A2E050A003945C2 /* Assets.xcassets */; };
+		04A18AD22A2E050A003945C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A18AD12A2E050A003945C2 /* Preview Assets.xcassets */; };
+		04A18ADF2A2E057E003945C2 /* SwiftUICalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 04A18ADE2A2E057E003945C2 /* SwiftUICalendar */; };
+		04A18AFD2A2E0596003945C2 /* ProposalAmenitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AE02A2E0596003945C2 /* ProposalAmenitiesView.swift */; };
+		04A18AFE2A2E0596003945C2 /* ProposalAvailabilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AE12A2E0596003945C2 /* ProposalAvailabilityView.swift */; };
+		04A18AFF2A2E0596003945C2 /* ProposalShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AE22A2E0596003945C2 /* ProposalShareView.swift */; };
+		04A18B002A2E0596003945C2 /* ProposalPricingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AE32A2E0596003945C2 /* ProposalPricingView.swift */; };
+		04A18B012A2E0596003945C2 /* ProposalHeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AE42A2E0596003945C2 /* ProposalHeadingView.swift */; };
+		04A18B022A2E0596003945C2 /* ProposalRoomDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AE52A2E0596003945C2 /* ProposalRoomDescriptionView.swift */; };
+		04A18B032A2E0596003945C2 /* ProposalPlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AE62A2E0596003945C2 /* ProposalPlaceView.swift */; };
+		04A18B042A2E0596003945C2 /* ProposalSubmisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AE72A2E0596003945C2 /* ProposalSubmisionView.swift */; };
+		04A18B052A2E0596003945C2 /* ProposalWrapperWithHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AE92A2E0596003945C2 /* ProposalWrapperWithHeaderView.swift */; };
+		04A18B062A2E0596003945C2 /* MapWithPlacesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AEA2A2E0596003945C2 /* MapWithPlacesListView.swift */; };
+		04A18B072A2E0596003945C2 /* CustomMultiDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AEB2A2E0596003945C2 /* CustomMultiDatePickerView.swift */; };
+		04A18B082A2E0596003945C2 /* BorderedCapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AEC2A2E0596003945C2 /* BorderedCapsuleButton.swift */; };
+		04A18B092A2E0596003945C2 /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AED2A2E0596003945C2 /* CapsuleButton.swift */; };
+		04A18B0A2A2E0596003945C2 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AEE2A2E0596003945C2 /* IconView.swift */; };
+		04A18B0B2A2E0596003945C2 /* RoomSharingSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AEF2A2E0596003945C2 /* RoomSharingSelectorView.swift */; };
+		04A18B0C2A2E0596003945C2 /* ProposalMultiTimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AF02A2E0596003945C2 /* ProposalMultiTimePickerView.swift */; };
+		04A18B0D2A2E0596003945C2 /* ProposalDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AF12A2E0596003945C2 /* ProposalDatePickerView.swift */; };
+		04A18B0E2A2E0596003945C2 /* ProposalWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AF22A2E0596003945C2 /* ProposalWrapperView.swift */; };
+		04A18B0F2A2E0596003945C2 /* PricingPerDayStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AF32A2E0596003945C2 /* PricingPerDayStepperView.swift */; };
+		04A18B102A2E0596003945C2 /* RoomDescriptionSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AF42A2E0596003945C2 /* RoomDescriptionSelectionView.swift */; };
+		04A18B112A2E0596003945C2 /* CustomDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AF52A2E0596003945C2 /* CustomDatePickerView.swift */; };
+		04A18B122A2E0596003945C2 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AF62A2E0596003945C2 /* CircleButton.swift */; };
+		04A18B132A2E0596003945C2 /* OptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AF72A2E0596003945C2 /* OptionButton.swift */; };
+		04A18B142A2E0596003945C2 /* BorderedCircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AF82A2E0596003945C2 /* BorderedCircleButton.swift */; };
+		04A18B152A2E0596003945C2 /* FieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AF92A2E0596003945C2 /* FieldView.swift */; };
+		04A18B162A2E0596003945C2 /* DayHourPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AFA2A2E0596003945C2 /* DayHourPickerView.swift */; };
+		04A18B172A2E0596003945C2 /* AmenitiesSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AFB2A2E0596003945C2 /* AmenitiesSelectionView.swift */; };
+		04A18B182A2E0596003945C2 /* ProposalImageUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18AFC2A2E0596003945C2 /* ProposalImageUploadView.swift */; };
+		04A18B1B2A2E05C8003945C2 /* Amenity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B192A2E05C8003945C2 /* Amenity.swift */; };
+		04A18B1C2A2E05C8003945C2 /* RoomDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B1A2A2E05C8003945C2 /* RoomDescription.swift */; };
+		04A18B232A2E05EF003945C2 /* WrappingHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B1E2A2E05EF003945C2 /* WrappingHStack.swift */; };
+		04A18B242A2E05EF003945C2 /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B1F2A2E05EF003945C2 /* ViewType.swift */; };
+		04A18B252A2E05EF003945C2 /* ContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B202A2E05EF003945C2 /* ContentManager.swift */; };
+		04A18B262A2E05EF003945C2 /* InternalWrappingHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B212A2E05EF003945C2 /* InternalWrappingHStack.swift */; };
+		04A18B272A2E05EF003945C2 /* NewLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B222A2E05EF003945C2 /* NewLine.swift */; };
+		04A18B292A2E0659003945C2 /* HeadingNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B282A2E0659003945C2 /* HeadingNoteView.swift */; };
+		04A18B2C2A2E07A4003945C2 /* Inter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04A18B2B2A2E07A4003945C2 /* Inter.ttf */; };
+		04A18B302A2E07F7003945C2 /* Font+Inter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B2F2A2E07F7003945C2 /* Font+Inter.swift */; };
+		04A18B322A2E081D003945C2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B312A2E081D003945C2 /* Colors.swift */; };
+		04A18B342A2E0838003945C2 /* View+RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B332A2E0838003945C2 /* View+RoundedCorner.swift */; };
+		04A18B362A2E08AB003945C2 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B352A2E08AB003945C2 /* MapViewModel.swift */; };
+		04A18B382A2E08F0003945C2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B372A2E08F0003945C2 /* HeaderView.swift */; };
+		04A18B3B2A2E092A003945C2 /* AddressResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B392A2E092A003945C2 /* AddressResult.swift */; };
+		04A18B3C2A2E092A003945C2 /* AnnotationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B3A2A2E092A003945C2 /* AnnotationItem.swift */; };
+		04A18B3E2A2E0975003945C2 /* AddressSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B3D2A2E0975003945C2 /* AddressSearchViewModel.swift */; };
+		04A18B402A2E09CA003945C2 /* AddressSearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B3F2A2E09CA003945C2 /* AddressSearchTextField.swift */; };
+		04A18B422A2E0A10003945C2 /* PickImageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B412A2E0A10003945C2 /* PickImageListView.swift */; };
+		04A18B462A2E0A59003945C2 /* Date+Formate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B452A2E0A59003945C2 /* Date+Formate.swift */; };
+		04A18B492A2E0AC9003945C2 /* View+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B482A2E0AC9003945C2 /* View+Placeholder.swift */; };
+		04A18B4B2A2E0B1A003945C2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B4A2A2E0B1A003945C2 /* MapView.swift */; };
+		04A18B4D2A2E0B36003945C2 /* AddressAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B4C2A2E0B36003945C2 /* AddressAnnotationView.swift */; };
+		04A18B512A2E0C38003945C2 /* StepperRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B502A2E0C38003945C2 /* StepperRowView.swift */; };
+		04A18B532A2E0CF8003945C2 /* EmptyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B522A2E0CF8003945C2 /* EmptyImageView.swift */; };
+		04A18B552A2E0DED003945C2 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B542A2E0DED003945C2 /* Int+Extension.swift */; };
+		04A18B572A2E0E49003945C2 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A18B562A2E0E49003945C2 /* ImageView.swift */; };
+		04A18B5D2A2E0FF0003945C2 /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A18B5C2A2E0FF0003945C2 /* ColorAssets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04A18AC72A2E0509003945C2 /* Proposal-Figam-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proposal-Figam-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A18ACA2A2E0509003945C2 /* Proposal_Figam_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proposal_Figam_SwiftUIApp.swift; sourceTree = "<group>"; };
+		04A18ACC2A2E0509003945C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04A18ACE2A2E050A003945C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A18AD12A2E050A003945C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04A18AE02A2E0596003945C2 /* ProposalAmenitiesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalAmenitiesView.swift; sourceTree = "<group>"; };
+		04A18AE12A2E0596003945C2 /* ProposalAvailabilityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalAvailabilityView.swift; sourceTree = "<group>"; };
+		04A18AE22A2E0596003945C2 /* ProposalShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalShareView.swift; sourceTree = "<group>"; };
+		04A18AE32A2E0596003945C2 /* ProposalPricingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalPricingView.swift; sourceTree = "<group>"; };
+		04A18AE42A2E0596003945C2 /* ProposalHeadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalHeadingView.swift; sourceTree = "<group>"; };
+		04A18AE52A2E0596003945C2 /* ProposalRoomDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalRoomDescriptionView.swift; sourceTree = "<group>"; };
+		04A18AE62A2E0596003945C2 /* ProposalPlaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalPlaceView.swift; sourceTree = "<group>"; };
+		04A18AE72A2E0596003945C2 /* ProposalSubmisionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalSubmisionView.swift; sourceTree = "<group>"; };
+		04A18AE92A2E0596003945C2 /* ProposalWrapperWithHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalWrapperWithHeaderView.swift; sourceTree = "<group>"; };
+		04A18AEA2A2E0596003945C2 /* MapWithPlacesListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapWithPlacesListView.swift; sourceTree = "<group>"; };
+		04A18AEB2A2E0596003945C2 /* CustomMultiDatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMultiDatePickerView.swift; sourceTree = "<group>"; };
+		04A18AEC2A2E0596003945C2 /* BorderedCapsuleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedCapsuleButton.swift; sourceTree = "<group>"; };
+		04A18AED2A2E0596003945C2 /* CapsuleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapsuleButton.swift; sourceTree = "<group>"; };
+		04A18AEE2A2E0596003945C2 /* IconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		04A18AEF2A2E0596003945C2 /* RoomSharingSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomSharingSelectorView.swift; sourceTree = "<group>"; };
+		04A18AF02A2E0596003945C2 /* ProposalMultiTimePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalMultiTimePickerView.swift; sourceTree = "<group>"; };
+		04A18AF12A2E0596003945C2 /* ProposalDatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalDatePickerView.swift; sourceTree = "<group>"; };
+		04A18AF22A2E0596003945C2 /* ProposalWrapperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalWrapperView.swift; sourceTree = "<group>"; };
+		04A18AF32A2E0596003945C2 /* PricingPerDayStepperView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PricingPerDayStepperView.swift; sourceTree = "<group>"; };
+		04A18AF42A2E0596003945C2 /* RoomDescriptionSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomDescriptionSelectionView.swift; sourceTree = "<group>"; };
+		04A18AF52A2E0596003945C2 /* CustomDatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDatePickerView.swift; sourceTree = "<group>"; };
+		04A18AF62A2E0596003945C2 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		04A18AF72A2E0596003945C2 /* OptionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionButton.swift; sourceTree = "<group>"; };
+		04A18AF82A2E0596003945C2 /* BorderedCircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedCircleButton.swift; sourceTree = "<group>"; };
+		04A18AF92A2E0596003945C2 /* FieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldView.swift; sourceTree = "<group>"; };
+		04A18AFA2A2E0596003945C2 /* DayHourPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayHourPickerView.swift; sourceTree = "<group>"; };
+		04A18AFB2A2E0596003945C2 /* AmenitiesSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmenitiesSelectionView.swift; sourceTree = "<group>"; };
+		04A18AFC2A2E0596003945C2 /* ProposalImageUploadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProposalImageUploadView.swift; sourceTree = "<group>"; };
+		04A18B192A2E05C8003945C2 /* Amenity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amenity.swift; sourceTree = "<group>"; };
+		04A18B1A2A2E05C8003945C2 /* RoomDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomDescription.swift; sourceTree = "<group>"; };
+		04A18B1E2A2E05EF003945C2 /* WrappingHStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrappingHStack.swift; sourceTree = "<group>"; };
+		04A18B1F2A2E05EF003945C2 /* ViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
+		04A18B202A2E05EF003945C2 /* ContentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentManager.swift; sourceTree = "<group>"; };
+		04A18B212A2E05EF003945C2 /* InternalWrappingHStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternalWrappingHStack.swift; sourceTree = "<group>"; };
+		04A18B222A2E05EF003945C2 /* NewLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewLine.swift; sourceTree = "<group>"; };
+		04A18B282A2E0659003945C2 /* HeadingNoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadingNoteView.swift; sourceTree = "<group>"; };
+		04A18B2B2A2E07A4003945C2 /* Inter.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Inter.ttf; sourceTree = "<group>"; };
+		04A18B2D2A2E07BF003945C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04A18B2F2A2E07F7003945C2 /* Font+Inter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+Inter.swift"; sourceTree = "<group>"; };
+		04A18B312A2E081D003945C2 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		04A18B332A2E0838003945C2 /* View+RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+RoundedCorner.swift"; sourceTree = "<group>"; };
+		04A18B352A2E08AB003945C2 /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		04A18B372A2E08F0003945C2 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		04A18B392A2E092A003945C2 /* AddressResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressResult.swift; sourceTree = "<group>"; };
+		04A18B3A2A2E092A003945C2 /* AnnotationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationItem.swift; sourceTree = "<group>"; };
+		04A18B3D2A2E0975003945C2 /* AddressSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSearchViewModel.swift; sourceTree = "<group>"; };
+		04A18B3F2A2E09CA003945C2 /* AddressSearchTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressSearchTextField.swift; sourceTree = "<group>"; };
+		04A18B412A2E0A10003945C2 /* PickImageListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickImageListView.swift; sourceTree = "<group>"; };
+		04A18B452A2E0A59003945C2 /* Date+Formate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Formate.swift"; sourceTree = "<group>"; };
+		04A18B482A2E0AC9003945C2 /* View+Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Placeholder.swift"; sourceTree = "<group>"; };
+		04A18B4A2A2E0B1A003945C2 /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		04A18B4C2A2E0B36003945C2 /* AddressAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressAnnotationView.swift; sourceTree = "<group>"; };
+		04A18B502A2E0C38003945C2 /* StepperRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepperRowView.swift; sourceTree = "<group>"; };
+		04A18B522A2E0CF8003945C2 /* EmptyImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyImageView.swift; sourceTree = "<group>"; };
+		04A18B542A2E0DED003945C2 /* Int+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		04A18B562A2E0E49003945C2 /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		04A18B5C2A2E0FF0003945C2 /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A18AC42A2E0509003945C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A18ADF2A2E057E003945C2 /* SwiftUICalendar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042D5FFA2A2E192600604B69 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				04A18AEA2A2E0596003945C2 /* MapWithPlacesListView.swift */,
+				04A18B3F2A2E09CA003945C2 /* AddressSearchTextField.swift */,
+				04A18B4A2A2E0B1A003945C2 /* MapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		04A18ABE2A2E0509003945C2 = {
+			isa = PBXGroup;
+			children = (
+				04A18AC92A2E0509003945C2 /* Proposal-Figam-SwiftUI */,
+				04A18AC82A2E0509003945C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A18AC82A2E0509003945C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A18AC72A2E0509003945C2 /* Proposal-Figam-SwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A18AC92A2E0509003945C2 /* Proposal-Figam-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				04A18B2D2A2E07BF003945C2 /* Info.plist */,
+				04A18AD82A2E0524003945C2 /* App */,
+				04A18ADB2A2E053B003945C2 /* Models */,
+				04A18ADC2A2E053E003945C2 /* View Models */,
+				04A18AD92A2E052A003945C2 /* Views */,
+				04A18B2E2A2E07E5003945C2 /* Extentions */,
+				04A18ADA2A2E0530003945C2 /* Resources */,
+				04A18AD02A2E050A003945C2 /* Preview Content */,
+			);
+			path = "Proposal-Figam-SwiftUI";
+			sourceTree = "<group>";
+		};
+		04A18AD02A2E050A003945C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04A18AD12A2E050A003945C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04A18AD82A2E0524003945C2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04A18ACA2A2E0509003945C2 /* Proposal_Figam_SwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		04A18AD92A2E052A003945C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04A18AE82A2E0596003945C2 /* Components */,
+				042D5FFA2A2E192600604B69 /* Map */,
+				04A18AE02A2E0596003945C2 /* ProposalAmenitiesView.swift */,
+				04A18AE12A2E0596003945C2 /* ProposalAvailabilityView.swift */,
+				04A18AE42A2E0596003945C2 /* ProposalHeadingView.swift */,
+				04A18AFC2A2E0596003945C2 /* ProposalImageUploadView.swift */,
+				04A18AE62A2E0596003945C2 /* ProposalPlaceView.swift */,
+				04A18AE32A2E0596003945C2 /* ProposalPricingView.swift */,
+				04A18AE52A2E0596003945C2 /* ProposalRoomDescriptionView.swift */,
+				04A18AE22A2E0596003945C2 /* ProposalShareView.swift */,
+				04A18AE72A2E0596003945C2 /* ProposalSubmisionView.swift */,
+				04A18ACC2A2E0509003945C2 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04A18ADA2A2E0530003945C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04A18B2A2A2E07A4003945C2 /* Fonts */,
+				04A18ACE2A2E050A003945C2 /* Assets.xcassets */,
+				04A18B5C2A2E0FF0003945C2 /* ColorAssets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04A18ADB2A2E053B003945C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04A18B392A2E092A003945C2 /* AddressResult.swift */,
+				04A18B3A2A2E092A003945C2 /* AnnotationItem.swift */,
+				04A18B192A2E05C8003945C2 /* Amenity.swift */,
+				04A18B1A2A2E05C8003945C2 /* RoomDescription.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04A18ADC2A2E053E003945C2 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				04A18B352A2E08AB003945C2 /* MapViewModel.swift */,
+				04A18B3D2A2E0975003945C2 /* AddressSearchViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		04A18AE82A2E0596003945C2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				04A18B1D2A2E05EF003945C2 /* WrappingHStack */,
+				04A18AFB2A2E0596003945C2 /* AmenitiesSelectionView.swift */,
+				04A18B4C2A2E0B36003945C2 /* AddressAnnotationView.swift */,
+				04A18AEC2A2E0596003945C2 /* BorderedCapsuleButton.swift */,
+				04A18AF82A2E0596003945C2 /* BorderedCircleButton.swift */,
+				04A18AED2A2E0596003945C2 /* CapsuleButton.swift */,
+				04A18AF62A2E0596003945C2 /* CircleButton.swift */,
+				04A18AF52A2E0596003945C2 /* CustomDatePickerView.swift */,
+				04A18AEB2A2E0596003945C2 /* CustomMultiDatePickerView.swift */,
+				04A18AFA2A2E0596003945C2 /* DayHourPickerView.swift */,
+				04A18B522A2E0CF8003945C2 /* EmptyImageView.swift */,
+				04A18AF92A2E0596003945C2 /* FieldView.swift */,
+				04A18B372A2E08F0003945C2 /* HeaderView.swift */,
+				04A18B282A2E0659003945C2 /* HeadingNoteView.swift */,
+				04A18AEE2A2E0596003945C2 /* IconView.swift */,
+				04A18B562A2E0E49003945C2 /* ImageView.swift */,
+				04A18AF72A2E0596003945C2 /* OptionButton.swift */,
+				04A18B412A2E0A10003945C2 /* PickImageListView.swift */,
+				04A18AF32A2E0596003945C2 /* PricingPerDayStepperView.swift */,
+				04A18AF12A2E0596003945C2 /* ProposalDatePickerView.swift */,
+				04A18AF02A2E0596003945C2 /* ProposalMultiTimePickerView.swift */,
+				04A18AF22A2E0596003945C2 /* ProposalWrapperView.swift */,
+				04A18AE92A2E0596003945C2 /* ProposalWrapperWithHeaderView.swift */,
+				04A18AF42A2E0596003945C2 /* RoomDescriptionSelectionView.swift */,
+				04A18AEF2A2E0596003945C2 /* RoomSharingSelectorView.swift */,
+				04A18B502A2E0C38003945C2 /* StepperRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		04A18B1D2A2E05EF003945C2 /* WrappingHStack */ = {
+			isa = PBXGroup;
+			children = (
+				04A18B1E2A2E05EF003945C2 /* WrappingHStack.swift */,
+				04A18B1F2A2E05EF003945C2 /* ViewType.swift */,
+				04A18B202A2E05EF003945C2 /* ContentManager.swift */,
+				04A18B212A2E05EF003945C2 /* InternalWrappingHStack.swift */,
+				04A18B222A2E05EF003945C2 /* NewLine.swift */,
+			);
+			path = WrappingHStack;
+			sourceTree = "<group>";
+		};
+		04A18B2A2A2E07A4003945C2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04A18B2B2A2E07A4003945C2 /* Inter.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		04A18B2E2A2E07E5003945C2 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				04A18B472A2E0ABC003945C2 /* Views */,
+				04A18B2F2A2E07F7003945C2 /* Font+Inter.swift */,
+				04A18B312A2E081D003945C2 /* Colors.swift */,
+				04A18B452A2E0A59003945C2 /* Date+Formate.swift */,
+				04A18B542A2E0DED003945C2 /* Int+Extension.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		04A18B472A2E0ABC003945C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04A18B332A2E0838003945C2 /* View+RoundedCorner.swift */,
+				04A18B482A2E0AC9003945C2 /* View+Placeholder.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A18AC62A2E0509003945C2 /* Proposal-Figam-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A18AD52A2E050A003945C2 /* Build configuration list for PBXNativeTarget "Proposal-Figam-SwiftUI" */;
+			buildPhases = (
+				04A18AC32A2E0509003945C2 /* Sources */,
+				04A18AC42A2E0509003945C2 /* Frameworks */,
+				04A18AC52A2E0509003945C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Proposal-Figam-SwiftUI";
+			packageProductDependencies = (
+				04A18ADE2A2E057E003945C2 /* SwiftUICalendar */,
+			);
+			productName = "Proposal-Figam-SwiftUI";
+			productReference = 04A18AC72A2E0509003945C2 /* Proposal-Figam-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A18ABF2A2E0509003945C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					04A18AC62A2E0509003945C2 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 04A18AC22A2E0509003945C2 /* Build configuration list for PBXProject "Proposal-Figam-SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A18ABE2A2E0509003945C2;
+			packageReferences = (
+				04A18ADD2A2E057E003945C2 /* XCRemoteSwiftPackageReference "SwiftUICalendar" */,
+			);
+			productRefGroup = 04A18AC82A2E0509003945C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A18AC62A2E0509003945C2 /* Proposal-Figam-SwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A18AC52A2E0509003945C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A18B2C2A2E07A4003945C2 /* Inter.ttf in Resources */,
+				04A18AD22A2E050A003945C2 /* Preview Assets.xcassets in Resources */,
+				04A18B5D2A2E0FF0003945C2 /* ColorAssets.xcassets in Resources */,
+				04A18ACF2A2E050A003945C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A18AC32A2E0509003945C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A18B552A2E0DED003945C2 /* Int+Extension.swift in Sources */,
+				04A18B022A2E0596003945C2 /* ProposalRoomDescriptionView.swift in Sources */,
+				04A18B4D2A2E0B36003945C2 /* AddressAnnotationView.swift in Sources */,
+				04A18B322A2E081D003945C2 /* Colors.swift in Sources */,
+				04A18ACD2A2E0509003945C2 /* ContentView.swift in Sources */,
+				04A18B082A2E0596003945C2 /* BorderedCapsuleButton.swift in Sources */,
+				04A18B232A2E05EF003945C2 /* WrappingHStack.swift in Sources */,
+				04A18B3E2A2E0975003945C2 /* AddressSearchViewModel.swift in Sources */,
+				04A18B302A2E07F7003945C2 /* Font+Inter.swift in Sources */,
+				04A18B342A2E0838003945C2 /* View+RoundedCorner.swift in Sources */,
+				04A18B162A2E0596003945C2 /* DayHourPickerView.swift in Sources */,
+				04A18B122A2E0596003945C2 /* CircleButton.swift in Sources */,
+				04A18B262A2E05EF003945C2 /* InternalWrappingHStack.swift in Sources */,
+				04A18B252A2E05EF003945C2 /* ContentManager.swift in Sources */,
+				04A18B3B2A2E092A003945C2 /* AddressResult.swift in Sources */,
+				04A18B512A2E0C38003945C2 /* StepperRowView.swift in Sources */,
+				04A18B362A2E08AB003945C2 /* MapViewModel.swift in Sources */,
+				04A18B182A2E0596003945C2 /* ProposalImageUploadView.swift in Sources */,
+				04A18B492A2E0AC9003945C2 /* View+Placeholder.swift in Sources */,
+				04A18AFD2A2E0596003945C2 /* ProposalAmenitiesView.swift in Sources */,
+				04A18B4B2A2E0B1A003945C2 /* MapView.swift in Sources */,
+				04A18B1B2A2E05C8003945C2 /* Amenity.swift in Sources */,
+				04A18B402A2E09CA003945C2 /* AddressSearchTextField.swift in Sources */,
+				04A18B062A2E0596003945C2 /* MapWithPlacesListView.swift in Sources */,
+				04A18B422A2E0A10003945C2 /* PickImageListView.swift in Sources */,
+				04A18B0D2A2E0596003945C2 /* ProposalDatePickerView.swift in Sources */,
+				04A18B152A2E0596003945C2 /* FieldView.swift in Sources */,
+				04A18B0C2A2E0596003945C2 /* ProposalMultiTimePickerView.swift in Sources */,
+				04A18B3C2A2E092A003945C2 /* AnnotationItem.swift in Sources */,
+				04A18AFF2A2E0596003945C2 /* ProposalShareView.swift in Sources */,
+				04A18B462A2E0A59003945C2 /* Date+Formate.swift in Sources */,
+				04A18B052A2E0596003945C2 /* ProposalWrapperWithHeaderView.swift in Sources */,
+				04A18ACB2A2E0509003945C2 /* Proposal_Figam_SwiftUIApp.swift in Sources */,
+				04A18B382A2E08F0003945C2 /* HeaderView.swift in Sources */,
+				04A18B242A2E05EF003945C2 /* ViewType.swift in Sources */,
+				04A18AFE2A2E0596003945C2 /* ProposalAvailabilityView.swift in Sources */,
+				04A18B002A2E0596003945C2 /* ProposalPricingView.swift in Sources */,
+				04A18B1C2A2E05C8003945C2 /* RoomDescription.swift in Sources */,
+				04A18B012A2E0596003945C2 /* ProposalHeadingView.swift in Sources */,
+				04A18B172A2E0596003945C2 /* AmenitiesSelectionView.swift in Sources */,
+				04A18B102A2E0596003945C2 /* RoomDescriptionSelectionView.swift in Sources */,
+				04A18B132A2E0596003945C2 /* OptionButton.swift in Sources */,
+				04A18B0F2A2E0596003945C2 /* PricingPerDayStepperView.swift in Sources */,
+				04A18B0B2A2E0596003945C2 /* RoomSharingSelectorView.swift in Sources */,
+				04A18B042A2E0596003945C2 /* ProposalSubmisionView.swift in Sources */,
+				04A18B032A2E0596003945C2 /* ProposalPlaceView.swift in Sources */,
+				04A18B572A2E0E49003945C2 /* ImageView.swift in Sources */,
+				04A18B142A2E0596003945C2 /* BorderedCircleButton.swift in Sources */,
+				04A18B0E2A2E0596003945C2 /* ProposalWrapperView.swift in Sources */,
+				04A18B0A2A2E0596003945C2 /* IconView.swift in Sources */,
+				04A18B112A2E0596003945C2 /* CustomDatePickerView.swift in Sources */,
+				04A18B092A2E0596003945C2 /* CapsuleButton.swift in Sources */,
+				04A18B532A2E0CF8003945C2 /* EmptyImageView.swift in Sources */,
+				04A18B072A2E0596003945C2 /* CustomMultiDatePickerView.swift in Sources */,
+				04A18B272A2E05EF003945C2 /* NewLine.swift in Sources */,
+				04A18B292A2E0659003945C2 /* HeadingNoteView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04A18AD32A2E050A003945C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04A18AD42A2E050A003945C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A18AD62A2E050A003945C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Proposal-Figam-SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Proposal-Figam-SwiftUI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Proposal-Figam-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A18AD72A2E050A003945C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Proposal-Figam-SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Proposal-Figam-SwiftUI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Proposal-Figam-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A18AC22A2E0509003945C2 /* Build configuration list for PBXProject "Proposal-Figam-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A18AD32A2E050A003945C2 /* Debug */,
+				04A18AD42A2E050A003945C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A18AD52A2E050A003945C2 /* Build configuration list for PBXNativeTarget "Proposal-Figam-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A18AD62A2E050A003945C2 /* Debug */,
+				04A18AD72A2E050A003945C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04A18ADD2A2E057E003945C2 /* XCRemoteSwiftPackageReference "SwiftUICalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GGJJack/SwiftUICalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.14;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04A18ADE2A2E057E003945C2 /* SwiftUICalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04A18ADD2A2E057E003945C2 /* XCRemoteSwiftPackageReference "SwiftUICalendar" */;
+			productName = SwiftUICalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 04A18ABF2A2E0509003945C2 /* Project object */;
+}
