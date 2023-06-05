@@ -30,8 +30,8 @@ git clone https://github.com/pansuriyaravi/Proposal-Figam-SwiftUI.git
 2. Open the project in Xcode:
 
 ```
-cd <project_directory>
-open App.xcodeproj
+cd Proposal-Figam-SwiftUI
+open Proposal-Figam-SwiftUI.xcodeproj
 ```
 
 3. Build and run the project using Xcode's simulator.
