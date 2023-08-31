@@ -38,4 +38,4 @@ open Proposal-Figam-SwiftUI.xcodeproj
 
 ## Contact
 
-If you have any questions or need further clarification, please feel free to reach out to me. You can contact me at pansuriyaravi.pr@gmail.com.
+If you have any questions or need further clarification, please feel free to reach out to me. You can contact me at hi.ravipansuriya@icloud.com.
